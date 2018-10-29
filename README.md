@@ -36,7 +36,7 @@
 
 > **Total Time: 90 mins**
 
-I. **Intro to EDA** (90 minutes total)
+I. **Optimization and Gridsearching Hyperparameters** (90 minutes total)
 - What is grid searching? What are hyperparameters?
 - Cover basketball dataset  
 - Fit a default KNN
