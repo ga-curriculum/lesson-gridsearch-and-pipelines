@@ -16,10 +16,11 @@
 *After this lesson, students will be able to:*
 
 1. Describe what the terms gridsearch and hyperparameter mean
-2. Build a gridsearching procedure from scratch
-3. Apply sklearn's GridSearchCV object with basketball data to optimize a KNN model
-4. Use and evaluate attributes of the gridsearch object
-5. Describe the pitfalls of searching large hyperparameter spaces
+1. Build a gridsearching procedure from scratch
+1. Apply sklearn's GridSearchCV object with basketball data to optimize a KNN model
+1. Use and evaluate attributes of the gridsearch object
+1. Describe the pitfalls of searching large hyperparameter spaces
+1. Creating a Scikit-Learn Pipeline object
 
 
 ---
@@ -55,8 +56,3 @@ To explore the process of gridsearching over sets of hyperparameters, we will us
 - Scraped from http://www.basketball-reference.com
 
 *We are interested in predicting whether the home team will win the game or not.* This is a classification problem.
-
-
----
-
-## OPTIONAL: Resources for Practice and Learning
