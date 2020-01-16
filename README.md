@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Optimization and Gridsearching Hyperparameters
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Hyperparameters, GridSearch, and Pipelines
 
 ---
 
@@ -7,20 +7,20 @@
 
 | Topic | Description | Link |
 | --- | --- | --- |
-| Lesson | Optimization and Gridsearching Hyperparameters | [Link](./introduction-to-gridsearching-hyperparameters.ipynb)|
+| Lesson | Starter Code | [Link](./starter-code.ipynb)|
 
+> Data Description: United Nations Demographic Data by Country
 ---
 
 ## Learning Objectives
 
 *After this lesson, students will be able to:*
 
-1. Describe what the terms gridsearch and hyperparameter mean
-1. Build a gridsearching procedure from scratch
-1. Apply sklearn's GridSearchCV object with basketball data to optimize a KNN model
-1. Use and evaluate attributes of the gridsearch object
-1. Describe the pitfalls of searching large hyperparameter spaces
-1. Creating a Scikit-Learn Pipeline object
+1. Describe what the terms hyperparameters, GridSearch, and pipeline mean.
+2. Apply `sklearn`'s `GridSearchCV` object.
+3. Use attributes of the GridSearch object.
+4. Describe the pitfalls of searching large hyperparameter spaces.
+5. Build pipelines.
 
 
 ---
@@ -29,30 +29,18 @@
 
 *Before this lesson(s), students should already be able to:*
 
-1. Have basic command of python data science libraries
-
+1. Import `sklearn`.
+2. Fit and evaluate models in `sklearn`.
+3. Transform data using a scaler.
 ---
 
 ## Lesson Outline
 
-> **Total Time: 90 mins**
+> **Total Time: 120 mins**
 
-I. **Optimization and Gridsearching Hyperparameters** (90 minutes total)
-- What is grid searching? What are hyperparameters?
-- Cover basketball dataset  
-- Fit a default KNN
+I. **Optimization and Gridsearching Hyperparameters**
+- What is GridSearching? What are hyperparameters?
 - Searching for the best hyperparameters
   - Grid search pseudocode
   - Use `GridSearchCV()`
-- A caution on gridsearching
-- Independent practice 
-
----
-> **Dataset description:**
-
-To explore the process of gridsearching over sets of hyperparameters, we will use some basketball data. The data below has statistics for 4 different seasons of NBA basketball: 2013-2016.
-- This data includes aggregate statistical data for each game.
-- The data of each game is aggregated by match for all players.
-- Scraped from http://www.basketball-reference.com
-
-*We are interested in predicting whether the home team will win the game or not.* This is a classification problem.
+- 
