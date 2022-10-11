@@ -43,4 +43,3 @@ I. **Optimization and Gridsearching Hyperparameters**
 - Searching for the best hyperparameters
   - Grid search pseudocode
   - Use `GridSearchCV()`
-- 
