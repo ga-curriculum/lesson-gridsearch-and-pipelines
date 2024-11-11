@@ -9,7 +9,6 @@
 | --- | --- | --- |
 | Lesson | Starter Code | [Link](./starter-code.ipynb)|
 
-> Data Description: United Nations Demographic Data by Country
 ---
 
 ## Learning Objectives
@@ -41,5 +40,5 @@
 I. **Optimization and Gridsearching Hyperparameters**
 - What is GridSearching? What are hyperparameters?
 - Searching for the best hyperparameters
-  - Grid search pseudocode
   - Use `GridSearchCV()`
+- Use Pipelines
